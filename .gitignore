@@ -1,0 +1,15 @@
+Include
+Scripts
+share
+Lib
+__pycache__
+chromedriver.exe
+sahibinden_db.db
+sahibinden_db_v2_reset.db
+sahibinden_db_v2.db
+sahibinden_db.db
+database.db
+RFR_model.pickle
+cookies.pkl
+nohup.out
+main.log
