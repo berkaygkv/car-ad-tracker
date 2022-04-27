@@ -30,7 +30,6 @@ def get_labeled_ads():
 
 def delete_messages():
     user_client = slack.WebClient(token=<TOKEN_HERE>)
-    #client  = slack.WebClient(token="xoxb-1448704904309-1445243323526-iM5AiHnBhCeOtCZt0YTFFHCF")
     user_client = user_client
     message_data = user_client.conversations_history(channel='C01DA5NPHDH').data
     active_messages = message_data['messages']
@@ -43,7 +42,7 @@ def delete_messages():
             pass
         time.sleep(1.5)
 
-# user_client = slack.WebClient(token="xoxp-1448704904309-1445062611014-1458182711060-56f52ae4bac493cf86804823fdae6904")
+
 client  = slack.WebClient(token=<TOKEN_HERE>)
 mng = Db_Manager('spider')
 logger = logging.getLogger(__name__)
